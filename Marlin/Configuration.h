@@ -995,7 +995,7 @@
  */
 // Note - the FT-5 0,0 is back right - the values below don't make sense
 // for the chart above. Just roll trust me on this one. My probe is to the right and back 1 mm.
-#define NOZZLE_TO_PROBE_OFFSET { 27, 1, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -27, 1, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
